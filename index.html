@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crypto Data</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Crypto Market Data</h1>
+    <input type="text" id="search" placeholder="Search by name or symbol" />
+    <button id="sortMarketCap">Sort by Market Cap</button>
+    <button id="sortPercentageChange">Sort by Percentage Change</button>
+    <table>
+      <thead>
+        <tr>
+          <th>Image</th>
+          <th>Name</th>
+          <th>ID</th>
+          <th>Symbol</th>
+          <th>Current Price (USD)</th>
+          <th>Total Volume</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody">
+        <!-- Dynamic rows will be injected here -->
+      </tbody>
+    </table>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
